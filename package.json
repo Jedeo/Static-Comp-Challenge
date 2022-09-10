@@ -4,6 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
@@ -17,9 +19,10 @@
   "bugs": {
     "url": "https://github.com/Jedeo/Static-Comp-Challenge/issues"
   },
-  "homepage": "https://github.com/Jedeo/Static-Comp-Challenge#readme",
+  "homepage": "https://github.com/Jedeo/Static-Comp-Challenge",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "style-loader": "^3.3.1",
     "webpack-cli": "^4.10.0"
   },
