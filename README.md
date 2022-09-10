@@ -31,6 +31,5 @@ The static comp challenge is a challenge to keep you working that HTML/CSS muscl
 This project used JavaScript, HTML, and CSS primarily.  Additional technologies learned specifically for this project included Webpack, and Chart.js
 
 ## Contributors
-This project was built by a group of three Front End Engineering students at Turing School of Software and Design: 
 - [Jedeo Manirikumwenatwe](https://github.com/Jedeo)
 
