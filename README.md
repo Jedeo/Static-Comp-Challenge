@@ -4,10 +4,7 @@
 - [Introduction](#introduction)
 - [Links](#links)
 - [Learning Goals](#learning-goals)
-- [Features](#features)
 - [Setup](#setup)
-- [Future Additions](#future-additions)
-- [Technologies](#Technologies)
 - [Contributors](#contributors)
 
 ## Introduction
@@ -17,35 +14,23 @@
 - [Project spec](https://frontend.turing.edu/projects/M2-static-comp-challenge.html)
 
 ## Learning Goals 
-- Implement ES6 classes that communicate to each other as needed
-- Write modular, reusable code that follows SRP (single responsibility principle).
-- Use object and array prototype methods to perform data manipulation. 
-- Implement a robust testing suite using TDD (test driven development).
-- Make network requests to retrieve data. 
-- Use GitHub Projects and Issues to track project management and progress amongst the team. 
-- Use Webpack to bundle our files.
-- Implement Chart.js package to display meaningful data to the user in a more visually appealing way. 
+The static comp challenge is a challenge to keep you working that HTML/CSS muscle.
 
-## Features
-Athlete (user) is randomly generated upon FitLit page load and they are greeted with a welcoming dashboard of their own sleep, hydration, and step (activity) data. These data are also compared against all users to show the user how they stack up against the competition! They can see their user profile information such as email and address as well. The user can select a date to display relevant data for that date and the previous week. 
 
-![fitlit_gif](https://user-images.githubusercontent.com/18154724/188334563-7f259183-e2f7-4ab2-808c-944092cb5f44.gif)
+![Static-comp](<img width="1440" alt="Screen Shot 2022-09-09 at 7 26 40 PM" src="https://user-images.githubusercontent.com/16736352/189463667-c031aad0-9da0-4c30-b409-28f1b88e0de7.png">)
+
+
 
 ## Setup
 1. Fork this repo - on the top right corner of this page, click the **Fork** button. 
 2. Clone down the forked repo. To rename your project you can use an optional argument when you run git clone (you replace the [...] with the terminal command arguments): `git clone [remote-address] [what you want to name the repo]`
 3. Once you have cloned the repo, change into the directory and install the project dependencies. Run `npm install` to install project dependencies.
-4. Run `npm start` in the terminal to see the HTML page running in your browser on `http://localhost:8080/`. `Control + C` is the command to stop running the local server.  Closing the terminal without stopping the server first could allow the server to continue to run in the background and cause problems. This command is not specific to Webpack; make note of it for future use. 
-5. Enjoy!
-
-## Future Additions
-- Adding data points using post to our data model such as a sleep data point or an activity for a current date. 
+4. Run `npm run build` than open your index.html using `open index.html` commened.
 
 ## Technologies
-This project used JavaScript, HTML, and CSS primarily. Test driven development using Mocha and Chai was also used. Additional technologies learned specifically for this project included Webpack, Chart.js, and making network requests to fetch information from an API. 
+This project used JavaScript, HTML, and CSS primarily.  Additional technologies learned specifically for this project included Webpack, and Chart.js
 
 ## Contributors
 This project was built by a group of three Front End Engineering students at Turing School of Software and Design: 
 - [Jedeo Manirikumwenatwe](https://github.com/Jedeo)
-- [Nicole Forseth](https://github.com/forsethnico)
-- [Piper Jarrett](https://github.com/piperjarrett)
+
