@@ -1,4 +1,4 @@
-# 👟 Static-Comp-Challenge 👟
+# Static-Comp-Challenge
 
 ## Table of Contents
 - [Introduction](#introduction)
