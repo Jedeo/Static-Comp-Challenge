@@ -17,7 +17,7 @@
 The static comp challenge is a challenge to keep you working that HTML/CSS muscle.
 
 
-![Static-comp](<img width="1440" alt="Screen Shot 2022-09-09 at 7 26 40 PM" src="https://user-images.githubusercontent.com/16736352/189463667-c031aad0-9da0-4c30-b409-28f1b88e0de7.png">)
+![Static-comp] (<img width="1440" alt="Screen Shot 2022-09-09 at 7 26 40 PM" src="https://user-images.githubusercontent.com/16736352/189463667-c031aad0-9da0-4c30-b409-28f1b88e0de7.png">)
 
 
 
