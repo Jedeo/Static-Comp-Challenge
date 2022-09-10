@@ -1,0 +1,278 @@
+body {
+  display: flex;
+  margin: 0;
+}
+.side-nav {
+  background-color: #3f4652;
+  color: aliceblue;
+  height: unset;
+  padding-left: 10px;
+  width: 20vw;
+}
+
+img {
+  width: 1.5vw;
+}
+
+.main-content {
+  width: 80vw;
+}
+.list {
+  list-style: none;
+  padding: 5px;
+}
+.list li {
+  margin-left: 10px;
+}
+.list label {
+  margin-bottom: 20px;
+}
+
+.post-link {
+  text-decoration: none;
+  color: rgb(0, 174, 255);
+  padding-left: 5px;
+}
+
+.other {
+  list-style: none;
+}
+
+.main-nav,
+.header-section,
+.header-imag,
+.side-label,
+.search-section {
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0;
+  padding: 0;
+  padding-left: 2vw;
+}
+.header-section {
+  justify-content: space-between;
+}
+.header-imag {
+  flex-direction: row;
+}
+.search-section {
+  position: relative;
+}
+.search-section label {
+  margin-top: 10px;
+}
+.search-section label input {
+  border: 0;
+  height: 7.6vh;
+  margin-top: 10px;
+  padding: 0;
+  width: 58vw;
+  text-indent: 3vw;
+}
+.humbuger-search {
+  display: flex;
+  border-bottom: 1px solid;
+  padding-left: 2vw;
+}
+
+.hamburger {
+  margin-top: 4vh;
+  width: 30px;
+  height: 30px;
+  align-self: baseline;
+  margin-right: 10px;
+}
+
+.search-section figure {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 8vh;
+  margin-left: 0;
+  margin-right: 0;
+  width: 4vw;
+  border-left: 1px solid;
+}
+.search-section figure:hover,
+.open:hover,
+.something:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+.list li:hover {
+  cursor: pointer;
+}
+
+.search-section label span img {
+  font-size: 15px;
+  left: 10px;
+  position: absolute;
+  top: 38px;
+}
+.search-img {
+  align-self: center;
+}
+.add-img {
+  padding-top: 2.5vh;
+}
+.ul-main-list {
+  margin-right: 40px;
+}
+.add-person {
+  margin-bottom: 0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.open {
+  align-self: center;
+  text-align: center;
+  border-radius: 40%;
+  font-size: 1.5vw;
+  border: 1px solid;
+  padding: 1vw;
+}
+.something {
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  align-self: center;
+  padding: 1vw;
+}
+
+.user-form,
+.user-apply {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.user-form {
+  justify-content: space-evenly;
+}
+
+.user-input {
+  margin-bottom: 20px;
+}
+.user-input input {
+  margin-left: 30px;
+  width: 30vw;
+}
+.user-info {
+  margin-bottom: 10px;
+}
+.position-title input {
+  margin-left: 60px;
+}
+
+.location input {
+  margin-left: 100px;
+}
+
+.employment input {
+  margin-left: 25px;
+}
+
+.experience input {
+  margin-left: 81px;
+}
+
+.status input {
+  margin-left: 7.5rem;
+}
+
+.description input {
+  margin-left: 70px;
+  height: 80px;
+}
+
+.user-apply {
+  background-color: #606875;
+  height: 80px;
+  margin-bottom: 30px;
+  text-align: left;
+  flex-direction: row;
+}
+
+.user-apply h3 {
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.user-apply button {
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 10px;
+  height: 30px;
+  width: 80px;
+}
+.user-response {
+  /* display: inline; */
+  align-self: center;
+  margin-left: 4.5rem;
+}
+.chart-div {
+  width: 40rem;
+}
+
+.job-posting {
+  background-color: #d1daeb;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2vw;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+  justify-content: center;
+}
+
+.facebook,
+.tweeter,
+.linkedin,
+.submit-information {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  height: 5vh;
+  width: 20vw;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  color: #fff;
+}
+.link-info {
+  color: #606875;
+  margin-left: 20px;
+}
+.facebook {
+  background-color: rgb(0, 94, 255);
+}
+.tweeter {
+  background-color: rgb(0, 162, 255);
+}
+
+.linkedin {
+  background-color: rgb(34, 127, 164);
+}
+
+.facebook img,
+.tweeter img,
+.linkedin img {
+  border-color: #d1daeb;
+  padding-right: 5vw;
+}
+
+.hidden {
+  display: none;
+}
+
+.submit-information {
+  background-color: rgb(201, 206, 205);
+}
