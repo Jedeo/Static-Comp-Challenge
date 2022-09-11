@@ -2,6 +2,8 @@ body {
   display: flex;
   margin: 0;
 }
+
+/* side nav */
 .side-nav {
   background-color: #3f4652;
   color: aliceblue;
@@ -14,18 +16,33 @@ img {
   width: 1.5vw;
 }
 
+.profile-pic {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+/* main-content */
+
 .main-content {
   width: 80vw;
 }
+
 .list {
   list-style: none;
   padding: 5px;
 }
+
 .list li {
   margin-left: 10px;
 }
+
 .list label {
   margin-bottom: 20px;
+}
+
+.list li:hover {
+  cursor: pointer;
 }
 
 .post-link {
@@ -40,7 +57,7 @@ img {
 
 .main-nav,
 .header-section,
-.header-imag,
+.header-img,
 .side-label,
 .search-section {
   border: 0;
@@ -50,18 +67,7 @@ img {
   padding: 0;
   padding-left: 2vw;
 }
-.header-section {
-  justify-content: space-between;
-}
-.header-imag {
-  flex-direction: row;
-}
-.search-section {
-  position: relative;
-}
-.search-section label {
-  margin-top: 10px;
-}
+
 .search-section label input {
   border: 0;
   height: 7.6vh;
@@ -70,7 +76,24 @@ img {
   width: 58vw;
   text-indent: 3vw;
 }
-.humbuger-search {
+
+.header-section {
+  justify-content: space-between;
+}
+
+.header-img {
+  flex-direction: row;
+}
+
+.search-section {
+  position: relative;
+}
+
+.search-section label {
+  margin-top: 10px;
+}
+
+.hamburger-search {
   display: flex;
   border-bottom: 1px solid;
   padding-left: 2vw;
@@ -94,13 +117,11 @@ img {
   width: 4vw;
   border-left: 1px solid;
 }
+
 .search-section figure:hover,
 .open:hover,
-.something:hover {
+.icons:hover {
   background-color: aqua;
-  cursor: pointer;
-}
-.list li:hover {
   cursor: pointer;
 }
 
@@ -110,24 +131,23 @@ img {
   position: absolute;
   top: 38px;
 }
+
 .search-img {
   align-self: center;
 }
+
 .add-img {
   padding-top: 2.5vh;
 }
+
 .ul-main-list {
   margin-right: 40px;
 }
+
 .add-person {
   margin-bottom: 0;
 }
 
-.profile-pic {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-}
 .open {
   align-self: center;
   text-align: center;
@@ -136,7 +156,7 @@ img {
   border: 1px solid;
   padding: 1vw;
 }
-.something {
+.icons {
   text-align: center;
   font-size: 20px;
   border: 1px solid;
@@ -151,6 +171,7 @@ img {
   flex-direction: column;
   width: 50vw;
 }
+
 .user-form {
   justify-content: space-evenly;
 }
@@ -158,13 +179,16 @@ img {
 .user-input {
   margin-bottom: 20px;
 }
+
 .user-input input {
   margin-left: 30px;
   width: 30vw;
 }
+
 .user-info {
   margin-bottom: 10px;
 }
+
 .position-title input {
   margin-left: 60px;
 }
@@ -212,7 +236,6 @@ img {
   width: 80px;
 }
 .user-response {
-  /* display: inline; */
   align-self: center;
   margin-left: 4.5rem;
 }
@@ -247,13 +270,16 @@ img {
   margin-left: 20px;
   color: #fff;
 }
+
 .link-info {
   color: #606875;
   margin-left: 20px;
 }
+
 .facebook {
   background-color: rgb(0, 94, 255);
 }
+
 .tweeter {
   background-color: rgb(0, 162, 255);
 }
